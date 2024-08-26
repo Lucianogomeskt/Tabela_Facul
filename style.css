@@ -1,0 +1,61 @@
+/* Estilo geral do body da página */
+body {
+    font-family: Arial, sans-serif; /* Fonte usada no texto */
+    background-color: #f4f4f4; /* Cor de fundo da página */
+    display: flex; /* Define um layout flexível para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Altura total da janela de visualização */
+    margin: 0; /* Remove margens padrão */
+}
+
+/* Estilo geral da tabela */
+table {
+    border-collapse: collapse; /* Remove espaçamento entre células */
+    width: 60%; /* Largura da tabela em relação à janela */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao redor da tabela */
+    background-color: #ffffff; /* Cor de fundo da tabela */
+}
+
+/* Estilo do cabeçalho da tabela */
+thead th {
+    padding: 10px; /* Espaçamento interno das células do cabeçalho */
+    text-align: left; /* Alinha o texto à esquerda */
+    font-weight: bold; /* Texto em negrito */
+    color: #ffffff; /* Cor do texto no cabeçalho */
+}
+
+/* Cor específica para cada coluna do cabeçalho */
+
+/* Coluna "Period" */
+thead th:nth-child(1) {
+    background-color: #d9ead3; /* Cor verde claro para "Period" */
+    color: #333333; /* Cor do texto */
+}
+
+/* Coluna "Android" */
+thead th:nth-child(2) {
+    background-color: #93c47d; /* Cor verde médio para "Android" */
+}
+
+/* Coluna "iOS" */
+thead th:nth-child(3) {
+    background-color: #9fc5e8; /* Cor azul claro para "iOS" */
+}
+
+/* Coluna "Windows Phone" */
+thead th:nth-child(4) {
+    background-color: #b4a7d6; /* Cor lilás claro para "Windows Phone" */
+}
+
+/* Coluna "Others" */
+thead th:nth-child(5) {
+    background-color: #e6b8af; /* Cor vermelho claro para "Others" */
+}
+
+/* Estilo das células do corpo da tabela */
+tbody td {
+    padding: 10px; /* Espaçamento interno das células */
+    text-align: left; /* Alinha o texto à esquerda */
+    border-bottom: 1px solid #ddd; /* Linha inferior em cada célula */
+}
